@@ -34,7 +34,7 @@ struct Opt {
     #[structopt()]
     line_number: usize,
 
-    /// Optional Input file
+    /// optional input file, defaults to stdin
     #[structopt(short = "f", long = "file", parse(from_os_str))]
     input: Option<PathBuf>,
 }
