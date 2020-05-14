@@ -2,6 +2,9 @@
 
 Pick a specific line from stdin or a file
 
+
+## Usage
+
 ```
 pick 0.1.0
 Pick a specific line from stdin or a file
@@ -19,3 +22,12 @@ OPTIONS:
 ARGS:
     <line-number>
 ```
+
+## Installation
+
+### using cargo
+```console
+git clone https://github.com/nilsmartel/pick
+cd pick
+cargo install --path .
+
